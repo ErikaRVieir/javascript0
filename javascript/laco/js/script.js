@@ -1,0 +1,30 @@
+//while(enquanto)
+let x = 1;
+while (x <= 10){
+    console.log(x);
+    x = x + 1;//x++;
+
+}
+let y = 15 
+while(y >= 5){
+    console.log(y);
+    y--;//y=y - 1
+}
+ //DO While (Fazer enquanto)
+ let m =15;
+
+ do{
+    console.log(`${m}`);
+    m = m + 2;
+
+ } while (m <= 21);
+
+ //for
+ // zero é menor que 5? enquanto o valor de 5 for menor ou 
+ //igual a 5, somo 1+1
+
+ for(i = 0; i <= 5; i++){
+    console.log(i);
+ }
+
+ 
