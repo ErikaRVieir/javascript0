@@ -67,41 +67,4 @@ console.log(h3);
 h2.insertAdjacentElement('afterend',h3);// Esta linha insere o elemento <h3> (com o texto) logo após um elemento existente chamado h2. O método insertAdjacentElement permite posicionar o novo elemento em relação a um elemento existente de maneira flexível.
 
 
-//setAttribute e getAttribute
-const primeiroLink = navLinks.querySelector("a");
-console.log(primeiroLink);
-
-primeiroLink.setAttribute("href", "https://www.uol.com.br/");
-
-//pegando o link alterado
-console.log(primeiroLink.getAttribute("href"));
-
-//abrir em uma nova aba
-primeiroLink.setAttribute("target", "_blank");
-
-//altura e largura
-const footer = document.querySelector("footer");
-console.log(footer.offsetWidth);
-console.log(footer.offsetHeight);
-console.log(footer.clientWidth);
-console.log(footer.clientHeight);
-
-
-//getBoudingClientRect
-const produtos1 = produtos[0];
-console.log(produtos1.getBoundingClientRect());
-
-//css com js
-const mainCss = document.getElementById("main-container");
-mainCss.style.color = "red";
-mainCss.style.backgroundColor = "#000";
-mainCss.style.paddingBottom = "100px";
-
-//HTML Collection
-//fazendo um loop no li e alterando a cor de fundo
-
-for(const li of listadeItens){
-    li.style.backgroundColor = "yellow";
-}
-
 
